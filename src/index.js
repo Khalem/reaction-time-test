@@ -27,25 +27,28 @@ class App extends React.Component {
   }
 
   startGame() {
-    // Reset error
-    this.setState({
-      error: false,
-      startClicked: true,
-    });
-
-    // Create a random amount of time - used so users can't get used to a pattern and it's truly reaction based
-    let timer = Math.random() * (4000 - 1000) + 1000;
-    this.myTimeout = setTimeout(() => {
-      document.getElementById('bar').style.backgroundColor = 'var(--green)';
-
-      let d = new Date();
-      let time = d.getTime();
-
+    // Only run if start hasn't been clicked before to avoid multiple timeouts occuring at the same time
+    if (this.state.startClicked === false) {
+      // Reset error
       this.setState({
-        gameStarted: true,
-        startTime: time
+        error: false,
+        startClicked: true,
       });
-    }, timer);
+
+      // Create a random amount of time - used so users can't get used to a pattern and it's truly reaction based
+      let timer = Math.random() * (4000 - 1000) + 1000;
+      this.myTimeout = setTimeout(() => {
+        document.getElementById('bar').style.backgroundColor = 'var(--green)';
+
+        let d = new Date();
+        let time = d.getTime();
+
+        this.setState({
+          gameStarted: true,
+          startTime: time
+        });
+      }, timer);
+    }
 
   }
 
