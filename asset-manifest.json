@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Khalem/reaction-time-test/static/css/main.3e786b5f.chunk.css",
-    "main.js": "/Khalem/reaction-time-test/static/js/main.1893725a.chunk.js",
-    "main.js.map": "/Khalem/reaction-time-test/static/js/main.1893725a.chunk.js.map",
-    "runtime-main.js": "/Khalem/reaction-time-test/static/js/runtime-main.49df9bd0.js",
-    "runtime-main.js.map": "/Khalem/reaction-time-test/static/js/runtime-main.49df9bd0.js.map",
-    "static/js/2.a2efa513.chunk.js": "/Khalem/reaction-time-test/static/js/2.a2efa513.chunk.js",
-    "static/js/2.a2efa513.chunk.js.map": "/Khalem/reaction-time-test/static/js/2.a2efa513.chunk.js.map",
-    "index.html": "/Khalem/reaction-time-test/index.html",
-    "precache-manifest.d550b9dd79a1eff7c503d47b93db1d67.js": "/Khalem/reaction-time-test/precache-manifest.d550b9dd79a1eff7c503d47b93db1d67.js",
-    "service-worker.js": "/Khalem/reaction-time-test/service-worker.js",
-    "static/css/main.3e786b5f.chunk.css.map": "/Khalem/reaction-time-test/static/css/main.3e786b5f.chunk.css.map",
-    "static/js/2.a2efa513.chunk.js.LICENSE.txt": "/Khalem/reaction-time-test/static/js/2.a2efa513.chunk.js.LICENSE.txt"
+    "main.css": "/reaction-time-test/static/css/main.3e786b5f.chunk.css",
+    "main.js": "/reaction-time-test/static/js/main.1893725a.chunk.js",
+    "main.js.map": "/reaction-time-test/static/js/main.1893725a.chunk.js.map",
+    "runtime-main.js": "/reaction-time-test/static/js/runtime-main.b8cb7452.js",
+    "runtime-main.js.map": "/reaction-time-test/static/js/runtime-main.b8cb7452.js.map",
+    "static/js/2.a2efa513.chunk.js": "/reaction-time-test/static/js/2.a2efa513.chunk.js",
+    "static/js/2.a2efa513.chunk.js.map": "/reaction-time-test/static/js/2.a2efa513.chunk.js.map",
+    "index.html": "/reaction-time-test/index.html",
+    "precache-manifest.cbc27742402074bba1b4cf1774a9f8ac.js": "/reaction-time-test/precache-manifest.cbc27742402074bba1b4cf1774a9f8ac.js",
+    "service-worker.js": "/reaction-time-test/service-worker.js",
+    "static/css/main.3e786b5f.chunk.css.map": "/reaction-time-test/static/css/main.3e786b5f.chunk.css.map",
+    "static/js/2.a2efa513.chunk.js.LICENSE.txt": "/reaction-time-test/static/js/2.a2efa513.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.49df9bd0.js",
+    "static/js/runtime-main.b8cb7452.js",
     "static/js/2.a2efa513.chunk.js",
     "static/css/main.3e786b5f.chunk.css",
     "static/js/main.1893725a.chunk.js"
