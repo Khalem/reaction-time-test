@@ -5,6 +5,14 @@
 }
 
 
+/* Styling Selection */
+::-moz-selection { color: var(--dark-blue); }
+::selection { color: var(--dark-blue); }
+
+::-moz-selection { background:var(--green); }
+::selection { background: var(--green); }
+
+
 body {
   text-align: center;
   font-family: 'Segoe UI', sans-serif;
